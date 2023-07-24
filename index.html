@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solutions Website</title>
+    <!-- DaisyUI & Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Customize -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'primary-color': '#707070',
+                        'btn-color': '#B68C5A',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google EG Garamond Font  Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+        <style>
+            .font-garamond{
+                font-family: 'EB Garamond', serif;
+            }
+        </style>
+</head>
+
+<body class="font-garamond">
+
+    <header>
+        <nav class="container w-auto">
+            <div class="navbar bg-base-100 flex items-center justify-evenly lg:pt-8">
+                <div>
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Cases</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <img class="lg:w-[75%]" src="images/logo2.png" alt="">
+                  </div>
+                </div>
+                <div class="navbar-center hidden lg:flex text-primary-color font-bold">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Cases</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <a class="btn bg-btn-color text-white rounded-xl">Free Consultation</a>
+                </div>
+              </div>
+        </nav>
+    </header>
+
+</body>
+
+</html>
